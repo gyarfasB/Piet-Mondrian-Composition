@@ -1,0 +1,131 @@
+#canvas {
+    width: 264px;
+    height: 264px;
+    background-color: ivory;
+    margin: 0 auto;
+    box-shadow: 15px 10px 10px grey;
+  }
+  #first-row {
+    height: 75%;
+    width: 100%;
+  }
+  #big-rectangle {
+    height: 100%;
+    width: 75%;
+  }
+  .red {
+    background-color:#dd0100;
+  }
+  .right {
+    float: right;
+  }
+  .black {
+    background-color: #1e1e1f;
+  }
+  #elso-feketevonal {
+    height: 100%;
+    width: 3%;
+  }
+  #first-column {
+    height: 100%;
+    width: 22%;
+  }
+  #second-divider {
+    height: 3%;
+    width: 100%;
+  }
+  #first-medium-rectangle {
+    height: 48.5%;
+    width: 100%;
+  }
+  #second-medium-rectangle {
+    height: 48.5%;
+    width: 100%;
+  }
+  #second-row {
+    height: 3%;
+    width: 100%; 
+  }
+  #third-row {
+    height: 22%;
+    width: 100%;
+  }
+  #last-column {
+    height: 100%;
+    width: 5%;
+  }
+  #third-divider {
+    height: 10%;
+    width: 100%;
+  }
+  .yellow {
+    background-color: #fac901;
+  }
+  #second-tiny-rectangle {
+    height: 45%;
+    width: 100%;
+  }
+  #first-tiny-rectangle {
+    height: 45%;
+    width: 100%;
+  }
+  #fourth-divider {
+    height: 100%;
+    width: 3%;
+  }
+  #white-rectangle {
+    height: 100%;
+    width: 67%;
+  }
+  #fifth-divider {
+    height: 100%;
+    width: 3%;
+  }
+  .blue {
+    background-color: #225095;
+  }
+  #small-rectangle {
+    height: 100%;
+    width: 22%;
+  }
+  body, html {
+    font-family: 'Roboto Mono', monospace;
+  }
+  figcaption, footer {
+      text-align: center;
+  }
+  footer {
+      font-size: xx-small;
+  }
+  body {
+      margin-top: 70px;
+      background-color: #ebebd5;
+  }
+
+  /*now, the animations*/
+
+  #small-rectangle:hover {
+    transform: scale(1.2);
+    transition: all 0.5s ease-in-out;
+  }
+  #big-rectangle:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+  }
+  #first-tiny-rectangle:hover {
+    transform: scale(1.4);
+    transition: all 0.5s ease-in-out;
+  }
+  /*
+  #canvas:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
